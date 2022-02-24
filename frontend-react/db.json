@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "password": "1234",
+      "name": "junha",
+      "find_password_question": "출신 초등학교는?",
+      "find_password_answer": "딩동댕 초등학교"
+    }
+  ]
+}

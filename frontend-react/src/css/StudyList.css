@@ -1,0 +1,86 @@
+.studyDiv {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  box-shadow: 0 5px 10px rgb(177, 177, 177);
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-top: 1rem;
+  padding: 0px;
+}
+.head {
+  display: flex;
+  margin-left: 10px;
+}
+.cmt {
+  display: flex;
+  /* margin-left: auto; */
+  /* flex-direction: column; */
+  justify-content: right;
+  /* align-content: flex-end; */
+}
+
+.content {
+  word-break: break-all;
+  margin-bottom: 3rem;
+}
+
+.name {
+  color: rgb(59, 59, 59);
+  margin-top: 1px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.date {
+  color: rgb(138, 138, 138);
+  font-size: 14px;
+  margin-left: 20px;
+}
+.underTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.studyItemView {
+  display: flex;
+  justify-content: right;
+}
+
+.stockDetailBack {
+  background: linear-gradient(
+    90deg,
+    rgba(212, 212, 255, 0.5382528011204482) 9%,
+    rgba(241, 240, 255, 1) 44%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.studyEditorView {
+  width: 60%;
+  margin-left: 40px;
+}
+
+.studyItemStock {
+  width: 40%;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.stockName {
+  color: rgb(0, 0, 0);
+  font-weight: 650;
+  font-size: 14px;
+}
+
+.stockNameLeft {
+  font-weight: 700;
+  font-size: 25px;
+}
+.dateLeft {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 25px;
+  color: rgb(95, 95, 95);
+}

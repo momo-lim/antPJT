@@ -1,0 +1,43 @@
+.nameComm {
+  color: rgb(32, 33, 104);
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.dateComm {
+  color: rgb(82, 82, 82);
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.contentComm {
+  margin-left: 10px;
+}
+
+.upperLineComm {
+  display: flex;
+  margin-bottom: 10px;
+  height: 12px;
+}
+
+.itemComment {
+  width: 97%;
+}
+
+.iconComment {
+  display: flex;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.wrapComment {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.updateLineComm {
+  display: flex;
+  margin-bottom: 10px;
+  height: 24px;
+}

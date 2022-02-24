@@ -1,0 +1,90 @@
+.Infotable {
+  border-collapse: collapse;
+  /* width: 70%; */
+  /* text-align: left; */
+  letter-spacing: 1px;
+  /* border: 1px solid black; */
+}
+
+.Infotr:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+.Infotd {
+  word-break: break-all;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.InfoMinus {
+  color: blue;
+}
+
+.InfoPlus {
+  color: red;
+}
+
+.InfoBack {
+  /* background-color: #eeeeee; */
+  border-radius: 10px;
+  border: 1px solid #c8c8c8;
+}
+
+.newsDiv {
+  display: flex;
+  width: 1080px;
+  justify-content: space-around;
+  border: 1px solid #c8c8c8;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.newsMain {
+  width: 50%;
+  margin: 0px;
+}
+
+.newsH2 {
+  display: inline;
+}
+
+.newsImg {
+  float: left;
+}
+
+.newsA {
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.newsToday {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsTodayImg {
+  width: 400px;
+}
+.newsTodayPlusColor {
+  color: red;
+}
+
+.newsTodayMinusColor {
+  color: blue;
+}
+
+.newsTd {
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.InfoButton {
+  background-color: rgb(0, 102, 255, 0.8);
+  color: white;
+  margin-left: 4px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

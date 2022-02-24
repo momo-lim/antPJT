@@ -1,0 +1,22 @@
+.page {
+  padding: 30px;
+  width: 830px;
+  height: 600px;
+}
+
+.secondLine {
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+}
+
+.content {
+  overflow-y: auto;
+  height: 350px;
+  width: 800px;
+  overflow-y: auto;
+}
+
+.interest {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+}
